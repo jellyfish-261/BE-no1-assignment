@@ -79,7 +79,6 @@ public class CalculateLv1 {
 
             // 계속 계산 진행할지 여부
             System.out.print("더 계산하시겠습니까? (exit 입력 시 종료): ");
-            // scanner.nextLine(); // 버퍼 제거
             String continueChoice = scanner.nextLine();
             if(continueChoice.equals("exit"))
                 break;
